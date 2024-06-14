@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Pacifico&family=Satisfy&display=swap');
+
+/* @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap'); */
+:root {
+    --color: rgb(116, 31, 2);
+    ---span: rgb(216, 65, 0);
+    --background:rgb(255, 213, 0);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+nav {
+    height: 50px;
+    /* width: 100%; */
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    background: rgb(255, 213, 0);
+}
+
+nav .logo a {
+    color: rgb(116, 31, 2);
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    margin: 10px;
+}
+
+nav ul li a {
+    color: var(--color);
+}
+
+.bod {
+    background: url(/pix/game.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+.text{
+    text-align: center;
+    background:rgba(255, 255, 255, 0.372);
+    height: 350px;
+    width: 350px;
+}
+ .h1{
+    align-items: center;
+    margin-top: 53px;
+        font-family: "Great Vibes", cursive;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+         
+      
+
+.in-image{
+    width: 350px;
+    height: 350px;
+    background: url(/pix/wave.jpg);
+    /* background-position: center; */
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+
